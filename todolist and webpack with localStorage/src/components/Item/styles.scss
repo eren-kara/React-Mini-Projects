@@ -1,0 +1,46 @@
+.Item {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1;
+  display: flex;
+  width: 500px;
+  align-self: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  list-style: none;
+
+  & .check {
+    color: blue;
+  }
+
+  & input {
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    &:focus {
+      outline-color: #57b8ff;
+    }
+  }
+
+  & input[type="checkbox"]:checked + form input {
+    text-decoration: line-through;
+  }
+
+  .Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    > div {
+      width: 20px;
+      > img {
+        width: 20px;
+      }
+    }
+  }
+}

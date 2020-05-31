@@ -1,0 +1,23 @@
+.List {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+
+  & .my-button {
+    margin-top: 50px;
+  }
+
+  & button {
+    width: 100px;
+    align-self: center;
+  }
+}
