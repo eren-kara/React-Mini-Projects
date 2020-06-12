@@ -27,8 +27,8 @@ class Item extends Component {
     }
   };
 
-  handleChange = (e) => {
-    this.setState({ inputValue: e.target.value });
+  handleChange = (event) => {
+    this.setState({ inputValue: event.target.value });
   };
   render() {
     const { handleDelete } = this.props;
