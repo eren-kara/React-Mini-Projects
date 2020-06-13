@@ -1,3 +1,6 @@
+This project was developed for learning redux and redux-react libraries.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
